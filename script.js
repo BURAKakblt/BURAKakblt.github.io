@@ -53,7 +53,7 @@ navLinks.querySelectorAll('a').forEach(link => {
    ─────────────────────────────────────────── */
 const revealElements = () => {
     const targets = document.querySelectorAll(
-        '.section-title, .about-text, .stat-card, .skill-badge, .project-card, .contact-card'
+        '.section-title, .about-text, .stat-card, .experience-card, .skill-badge, .project-card, .contact-card'
     );
     targets.forEach(el => el.classList.add('reveal'));
 };
